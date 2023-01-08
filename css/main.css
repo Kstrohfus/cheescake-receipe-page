@@ -79,9 +79,59 @@ select {
 font-family: 'Playfair Display', serif;
  */
 
+/* Title and photo */
+
+.title-container {
+    display: block;
+    width: 100vw;
+}
+
 header h1 {
     font-family: "Playfair Display";
     font-weight: 700;
-    font-size: 48px;
-    line-height: 64px;
+    font-size: 24px;
+    line-height: 32px;
+    margin-left: 12px;
+    margin-bottom: 12px;
+    margin-top: 30px;
+}
+
+.title-container p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    color: #4f4f4f;
+    line-height: 15px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    width: 270px;
+}
+
+.title-container img {
+    margin-left: 10px;
+    width: 370px;
+    height: 210;
+    border-radius: 12px;
+}
+
+/* Ingredients/ Instructions */
+.graham-instructions {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cheesecake-instructions {
+   font-family: 'Montserrat', sans-serif;
+}
+/* Instructions */
+
+span.number {
+    font-family: "Playfair Display";
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.instructions-container p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
 }
