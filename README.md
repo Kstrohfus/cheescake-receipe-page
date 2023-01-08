@@ -1,4 +1,4 @@
-<h1 align="center">{Recipe Challenge}</h1>
+<h1 align="center">{Recipe Page Challenge}</h1>
 
 <p>Cheescake Recipe Figma Design to HTML</p>
 
