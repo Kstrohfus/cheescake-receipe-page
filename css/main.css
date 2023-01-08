@@ -242,8 +242,19 @@ li:before {
 }
 
 /* Source and Footer */
+
+.source-main {
+    display: block;
+    font-family: "Montserrat", sans-serif;
+    color: #828282;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
 .source p {
-    font-family: "Montserrat" sans-serif;
+    margin-left: 20px;
+    font-family: "Montserrat", sans-serif;
     color: #828282;
     font-style: italic;
     font-weight: 400;
