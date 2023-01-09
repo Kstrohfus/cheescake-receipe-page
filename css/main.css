@@ -89,6 +89,7 @@ svg {
     stroke: #4f4f4f;
     opacity: 50%;
 }
+
 .title-container {
     display: block;
     width: 100vw;
@@ -300,7 +301,8 @@ footer p {
     text-align: center;
 }
 
-/* Media */
-
-@media (min-width: 768px) {
+@media (max-width: 769px) {
+    svg.desktop {
+        display: none;
+    }
 }
