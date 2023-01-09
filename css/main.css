@@ -138,7 +138,7 @@ header h1 {
 }
 
 .servings {
-    font-family: "Montserrat";
+    font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 10px;
@@ -150,12 +150,16 @@ header h1 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 10px;
+    margin-top: 20px;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 10px;
     line-height: 12px;
     width: 340px;
+}
+
+.prep-numbers {
+    margin-left: 19px;
 }
 
 .timing span,
@@ -166,6 +170,27 @@ header h1 {
     line-height: 10px;
     text-transform: uppercase;
 }
+
+.yields {
+    position: absolute;
+    top: 390px;
+    left: 29px;
+}
+
+p.servings {
+    position: absolute;
+    top: 395px;
+    left: 29px;
+}
+
+.fa-clock {
+    margin-right: 10px;
+}
+
+.cooking-directions i.fork {
+    color: #f2994a;
+}
+
 /* Ingredients/ Instructions Titles*/
 
 .cooking-ingredients h2 {
@@ -174,6 +199,7 @@ header h1 {
     font-size: 18px;
     line-height: 24px;
     margin-top: 30px;
+    margin-left: 10px;
 }
 
 .ingredient-title {
@@ -197,6 +223,7 @@ header h1 {
 .cheesecake-ingredients {
     font-family: "Montserrat", sans-serif;
     margin-left: 20px;
+    width: 350px;
 }
 
 /* Instructions */
@@ -207,6 +234,7 @@ header h1 {
 
 .instructions-container h2 {
     margin-top: 30px;
+    margin-left: 10px;
 }
 
 li {
@@ -250,7 +278,7 @@ li:before {
     color: #828282;
     font-style: italic;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 12px;
     line-height: 150%;
 }
 .source p {
@@ -259,14 +287,20 @@ li:before {
     color: #828282;
     font-style: italic;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 12px;
     line-height: 150%;
 }
 footer p {
+    margin-top: 70px;
     font-family: "Montserrat", sans-serif;
     color: #828282;
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
-    text-align: right;
+    text-align: center;
+}
+
+/* Media */
+
+@media (min-width: 768px) {
 }
