@@ -123,7 +123,6 @@ header h1 {
     margin-bottom: 30px;
     margin-left: 10px;
     width: 370px;
-    height: 210;
     border-radius: 12px;
 }
 
@@ -159,24 +158,31 @@ header h1 {
     width: 340px;
 }
 
-.prep-numbers {
-    color: #000;
-    margin-left: 19px;
-}
-
-.timing span,
 .yields {
-    color: #bdbdbd;
-    font-weight: 700;
+    position: absolute;
+    top: 390px;
+    left: 29px;
+    font-weight: 500;
     font-size: 8px;
     line-height: 10px;
     text-transform: uppercase;
 }
 
-.yields {
-    position: absolute;
-    top: 390px;
-    left: 29px;
+span.timing {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.prep-numbers {
+    color: #000;
+    margin-left: 19px;
+    text-transform: uppercase;
+}
+
+.p-time {
+    color: #828282;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 p.servings {

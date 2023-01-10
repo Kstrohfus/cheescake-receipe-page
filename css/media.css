@@ -10,12 +10,9 @@
     }
 
     header h1 {
-        font-weight: 700;
         font-size: 48px;
         line-height: 64px;
         margin-left: 230px;
-        margin-bottom: 12px;
-        margin-top: 30px;
     }
 
     .title-container p {
@@ -32,51 +29,41 @@
         margin-bottom: 30px;
         margin-left: 190px;
         width: 960px;
-        height: 470;
+        height: 470px;
     }
 
     /* Prep */
 
     .container-servings {
-        margin-left: 10px;
         width: 150px;
     }
 
     .servings {
-        font-weight: 500;
         font-size: 10px;
-        line-height: 20px;
         color: #f2994a;
     }
 
     .timing {
         display: flex;
         flex-direction: column;
-        float: right;
+        align-items: center;
+        justify-content: center;
         position: absolute;
         top: 710px;
-        left: 900px;
-        margin-top: 20px;
-        margin-right: 350px;
+        left: 930px;
         font-weight: 500;
         font-size: 10px;
         line-height: 12px;
-        width: 215px;
+        width: 216px;
         height: 367px;
         background: #ffffff;
         box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
         border-radius: 12px;
     }
 
-    .prep-numbers {
-        font-size: 14px;
-        margin-left: 50px;
-    }
-
     .timing span,
     .yields {
-        color: #bdbdbd;
-        font-weight: 700;
+        font-weight: 500;
         font-size: 14px;
         line-height: 10px;
         text-transform: uppercase;
@@ -85,7 +72,7 @@
     .yields {
         position: absolute;
         top: 770px;
-        left: 950px;
+        left: 1020px;
         font-size: 10px;
         z-index: 2;
     }
@@ -93,25 +80,34 @@
     p.servings {
         position: absolute;
         top: 780px;
-        left: 950px;
+        left: 1020px;
         font-size: 14px;
         z-index: 2;
     }
 
     .fa-clock {
-        font-size: 25px;
-        margin-top: 70px;
-        margin-right: 10px;
-        padding-left: 10px;
+        line-height: 0;
+        font-size: 30px;
+        margin-top: 60px;
     }
 
     .cooking-directions i.fork {
         position: absolute;
-        top: 750px;
-        left: 910px;
+        top: 770px;
+        left: 980px;
         font-size: 30px;
         color: #f2994a;
         z-index: 2;
+    }
+
+    .prep-numbers {
+        color: #000;
+        font-size: 14px;
+        margin-left: 40px;
+    }
+
+    .p-time {
+        margin-left: 5px;
     }
 
     /* Ingredients/ Instructions Titles*/
@@ -119,12 +115,11 @@
     .cooking-ingredients h2 {
         font-size: 24px;
         line-height: 32px;
-        margin-top: 30px;
         margin-left: 200px;
     }
 
     .ingredient-title {
-        font-size: 16px;
+        font-size: 18px;
         line-height: 21px;
         font-weight: 400;
         margin-left: 200px;
@@ -133,31 +128,30 @@
     }
 
     .graham-ingredients {
+        font-size: 16px;
         margin-left: 200px;
-        width: 340px;
+        width: 510px;
     }
 
     .cheesecake-ingredients {
+        font-size: 16px;
         margin-left: 200px;
-        width: 350px;
+        width: 470px;
     }
 
     /* Instructions */
 
     .instructions-container {
         margin-left: 200px;
-        width: 350px;
+        width: 500px;
     }
 
     .instructions-container h2 {
-        margin-top: 30px;
-        margin-left: 10px;
+        font-size: 24px;
     }
 
     .instructions-container p {
-        margin-top: -35px;
         margin-bottom: 20px;
-        margin-left: 15px;
         font-weight: 400;
         font-size: 16px;
         line-height: 20px;
@@ -166,23 +160,17 @@
     /* Source and Footer */
 
     .source-main {
-        display: block;
+        display: inline;
         font-weight: 400;
-        font-size: 12px;
-        line-height: 150%;
+        font-size: 16px;
     }
     .source p {
         margin-left: 200px;
-
-        font-style: italic;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 150%;
+        font-size: 16px;
     }
     footer p {
         margin-top: 70px;
         font-weight: 500;
         font-size: 14px;
-        line-height: 17px;
     }
 }
