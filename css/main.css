@@ -173,16 +173,29 @@ span.timing {
     text-transform: uppercase;
 }
 
-.prep-numbers {
-    color: #000;
-    margin-left: 19px;
-    text-transform: uppercase;
-}
-
-.p-time {
+.p-time-one {
     color: #828282;
     font-weight: 700;
     text-transform: uppercase;
+}
+
+.p-time-one,
+.p-time-two,
+.p-time-three {
+    margin-left: 1px;
+    font-size: 8px;
+    color: #bdbdbd;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.prep-numbers-one,
+.prep-numbers-two,
+.prep-numbers-three {
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-left: 0px;
 }
 
 p.servings {
@@ -193,6 +206,24 @@ p.servings {
 
 .fa-clock {
     margin-right: 10px;
+}
+
+.fa-clock.one {
+    position: absolute;
+    top: 435px;
+    left: 10px;
+}
+
+.fa-clock.two {
+    position: absolute;
+    top: 435px;
+    left: 130px;
+}
+
+.fa-clock.three {
+    position: absolute;
+    top: 435px;
+    left: 236px;
 }
 
 .cooking-directions i.fork {
