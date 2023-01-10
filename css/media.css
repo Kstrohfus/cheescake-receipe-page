@@ -61,18 +61,12 @@
         border-radius: 12px;
     }
 
-    .timing span,
     .yields {
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 10px;
-        text-transform: uppercase;
-    }
-
-    .yields {
+        color: #bdbdbd;
+        font-weight: 700;
         position: absolute;
         top: 770px;
-        left: 1020px;
+        left: 1010px;
         font-size: 10px;
         z-index: 2;
     }
@@ -80,21 +74,75 @@
     p.servings {
         position: absolute;
         top: 780px;
-        left: 1020px;
+        left: 1010px;
         font-size: 14px;
         z-index: 2;
     }
 
     .fa-clock {
         line-height: 0;
-        font-size: 30px;
+        font-size: 25px;
         margin-top: 60px;
+    }
+
+    .fa-clock.one {
+        position: absolute;
+        top: 150px;
+        left: 30px;
+    }
+
+    .fa-clock.two {
+        position: absolute;
+        top: 240px;
+        left: 30px;
+    }
+
+    .fa-clock.three {
+        position: absolute;
+        top: 60px;
+        left: 30px;
+    }
+
+    .p-time-one {
+        position: absolute;
+        top: 105px;
+        left: 70px;
+    }
+
+    .p-time-two {
+        position: absolute;
+        top: 197px;
+        left: 70px;
+    }
+
+    .p-time-three {
+        position: absolute;
+        top: 290px;
+        left: 70px;
+    }
+
+    .prep-numbers-one {
+        position: absolute;
+        top: 120px;
+        left: 70px;
+    }
+
+    .prep-numbers-two {
+        position: absolute;
+        top: 215px;
+        left: 70px;
+    }
+
+    .prep-numbers-three {
+        position: absolute;
+        top: 307px;
+        left: 70px;
     }
 
     .cooking-directions i.fork {
         position: absolute;
         top: 770px;
-        left: 980px;
+        left: 970px;
         font-size: 30px;
         color: #f2994a;
         z-index: 2;
@@ -102,12 +150,21 @@
 
     .prep-numbers {
         color: #000;
-        font-size: 14px;
-        margin-left: 40px;
     }
 
-    .p-time {
-        margin-left: 5px;
+    .p-time-one,
+    .p-time-two,
+    .p-time-three {
+        color: #bdbdbd;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+
+    .prep-numbers-one,
+    .prep-numbers-two,
+    .prep-numbers-three {
+        text-transform: uppercase;
+        font-size: 14px;
     }
 
     /* Ingredients/ Instructions Titles*/
