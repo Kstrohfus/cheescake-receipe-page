@@ -198,10 +198,6 @@
 
     /* Instructions */
 
-    li:before {
-        left: -30px;
-    }
-
     .instructions-container {
         margin-left: 200px;
         width: 500px;
